@@ -1,0 +1,29 @@
+{
+  "name": "041021links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "cross-env NODE_ENV=production node app.js",
+    "sv": "cross-env NODE_ENV=development nodemon app.js",
+    "cl": "npm run start --prefix client",
+    "cl:instal": "npm instal --prefix client",
+    "cl:build": "npm run build --prefix client"
+  },
+  "author": "PetrPlotnikov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.13"
+  }
+}
